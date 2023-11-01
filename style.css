@@ -125,7 +125,7 @@ body {
 .mainboard {
     border: solid yellow 2px;
     height: fit-content;
-    position: relative;    
+    position: relative;
     border: solid rgb(255, 208, 0) 2px;
 }
 
@@ -276,16 +276,17 @@ body {
     /* border: 2px solid purple; */
 }
 
-.appfeatures>*{
+.appfeatures>* {
     /* border: 2px solid rgb(4, 3, 32); */
     padding: 5%;
 }
 
-.appfeatureimg{
+.appfeatureimg {
     width: 40%;
     /* border: 3px solid rgb(9, 30, 100); */
     padding: auto 0;
 }
+
 .appfeatureimg>img {
     /* border: 3px solid rgb(24, 214, 24); */
     width: 100%;
@@ -416,41 +417,47 @@ body {
 }
 
 .jackpot-section>* {
-padding: 3%;
+    padding: 3%;
 }
 
 .jackpot-headings>h1 {
     font-family: Poppins;
     width: 28%;
     padding: 5px 15% 5px 5%;
-    margin: 0 5% 0 8%;  
+    margin: 0 5% 0 8%;
     border-right: 1px solid #adadad;
 }
-.jackpot-headings>p{
-    width: 33%;    
+
+.jackpot-headings>p {
+    width: 33%;
 }
-.jackpot-features{
+
+.jackpot-features {
     display: flex;
     justify-content: space-around;
     width: 80%;
     margin: auto;
 }
-.jackpot-features>*{
+
+.jackpot-features>* {
     width: 20%;
 }
 
-.design{
+.design {
     display: flex;
     width: 80%;
     margin: auto;
 }
-.design>*{
+
+.design>* {
     padding: 2%;
 }
-.design-info>*{
- margin-bottom: 20px;
+
+.design-info>* {
+    margin-bottom: 20px;
 }
-.design button{
+
+.design button {
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -459,43 +466,206 @@ padding: 3%;
     border: none;
 }
 
-.feature-header{
+.feature-header {
     width: 50%;
     margin: auto;
     /* border: 2px solid rgb(21, 255, 0); */
     text-align: center;
 }
-.feature-header>h1{
+
+.feature-header>h1 {
     width: 60%;
     /* border: 2px solid rgb(17, 194, 164); */
     margin: auto;
     padding: 0;
 }
-.features-container{
+
+.features-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     /* border: 2px solid blue; */
     margin: auto;
     width: 80%;
     padding: 30px 0;
 }
-.featurecard{
+
+.featurecard {
     display: grid;
     justify-content: center;
     align-items: center;
     margin: auto;
     text-align: center;
 }
-.featurecard>h5{
+
+.featurecard>h5 {
     margin-top: 10px;
-    
+
 }
-.featurecard img{
+
+.featurecard img {
     /* border: 1px solid yellow; */
     margin: auto;
     display: inline-block;
 }
-.featurecard p{
-    /* padding-bottom: 0; */
+
+.team-section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.team-section>h1 {
+    width: 60%;
+    margin: auto;
+    font-size: 23px;
+    /* border: solid green 2px; */
+    text-align: center;
+}
+
+.team-section>p {
+    width: 70%;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+}
+
+.team-types {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin: 30px 0;
+    border-bottom: #0DC9C8 solid 2px;
+}
+
+.team-types>P {
+    padding: 5px;
+    color: #343661;
+}
+
+.team-types>p:hover {
+    padding: 5px;
+    background: #0DC9C8;
+    color: white;
+    cursor: pointer;
+}
+
+/* .....................members........... */
+.members {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.member-card {
+    display: flex;
+    background-color: #f6ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    width: 30%;
+}
+
+.member-card>div:nth-child(2) {
+    width: 70%;
+    margin: auto;
+}
+
+.member-card>div:nth-child(1) {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.member-card h3 {
+    color: #555DDB;
+}
+
+.job-description {
+    margin-top: 10px;
+    color: #5E6282;
+}
+
+/* .................ultimate section.............. */
+.ultimate-section {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.ul-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* ......................goal section................ */
+.goals-section {
+    background: rgba(85, 36, 129, 0.30);
+    padding: 5% 10%;
+}
+
+.wrapper {
+    border-radius: 15px;
+    background-color: rgba(255, 254, 254, 0.6);
+    padding: 4% 15%;
+
+}
+
+.wrap-header {
+    display: flex;
+}
+
+.wrap-header>div:first-child {
+    width: 40%;
+    margin: auto;
+}
+
+.wrap-header>div:last-child {
+    width: 45%;
+}
+.wrap-header h1{
+    margin-top: 3%;
+}
+
+/* ......................plan-section............... */
+.plan-section{
+    width: 60%;
+    margin: auto;
+}
+.pl-top>*{
+text-align: center;
+}
+.pl-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid gray;
+}
+.pl-bottom>*{
+    padding: 5% 0 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 45%;
+}
+.pl-bottom>*>*{
+    text-align: center;
+    padding: 10px 0;
+}
+.plan-features>p{
+    margin: 5px 0;
+}
+.pl-bottom .price{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pl-bottom button{
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #0dc9c8;
+    color: white;
+    border: none;
 }

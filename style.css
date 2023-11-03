@@ -743,3 +743,19 @@ text-align: center;
 .q_a-container>.answer{
     text-align: justify;
 }
+
+.app-download-section{
+    width: 80%;
+    margin: 20px auto;
+
+}
+.app-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-container>*{
+    width: 45%;
+
+}

@@ -642,7 +642,7 @@ text-align: center;
 .pl-bottom{
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 }
 .pl-bottom>*{
     padding: 5% 0 2%;
@@ -676,7 +676,7 @@ text-align: center;
     width: 80%;
     margin: auto;
     justify-content: space-around;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .testimonials-section>*{
     width: 40%;
@@ -695,4 +695,27 @@ text-align: center;
 }
 .person{
     margin: 10px 0;
+    position: relative;
+}
+.person>img{
+    width: auto;
+    position: absolute;
+    top: -10px;
+}
+.left-arrow{
+    left: -100px;
+}
+.right-arrow{
+    right: -100px;
+}
+
+.testimonial{
+    position: relative;
+    
+}
+.testimonial>img{
+    width: 50px;
+    position: absolute;
+    top: -30px;
+    left: -20px;
 }

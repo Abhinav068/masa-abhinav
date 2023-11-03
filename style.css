@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0px;
@@ -627,41 +627,48 @@ body {
 .wrap-header>div:last-child {
     width: 45%;
 }
-.wrap-header h1{
+
+.wrap-header h1 {
     margin-top: 3%;
 }
 
 /* ......................plan-section............... */
-.plan-section{
+.plan-section {
     width: 60%;
     margin: auto;
 }
-.pl-top>*{
-text-align: center;
+
+.pl-top>* {
+    text-align: center;
 }
-.pl-bottom{
+
+.pl-bottom {
     display: flex;
     justify-content: space-evenly;
     /* border: 2px solid gray; */
 }
-.pl-bottom>*{
+
+.pl-bottom>* {
     padding: 5% 0 2%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 45%;
 }
-.pl-bottom>*>*{
+
+.pl-bottom>*>* {
     text-align: center;
     padding: 10px 0;
 }
-.plan-features>p{
+
+.plan-features>p {
     margin: 5px 0;
 }
-.pl-bottom .price{
+
+.pl-bottom .price {
     font-size: 30px;
     font-weight: 800;
 }
 
-.pl-bottom button{
+.pl-bottom button {
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -671,91 +678,144 @@ text-align: center;
 }
 
 /* ...........Testimonal section............. */
-.testimonials-section{
+.testimonials-section {
     display: flex;
     width: 80%;
     margin: auto;
     justify-content: space-around;
     /* border: 2px solid black; */
 }
-.testimonials-section>*{
+
+.testimonials-section>* {
     width: 40%;
 }
-.testimonials-section img{
+
+.testimonials-section img {
     width: 100%;
 }
 
-.test-content>*{
+.test-content>* {
     margin: 20px 0;
 }
-.test-content>div{
-    padding: 20px 40px ;
+
+.test-content>div {
+    padding: 20px 40px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     margin: 80px 0 0 20px;
 }
-.person{
+
+.person {
     margin: 10px 0;
     position: relative;
 }
-.person>img{
+
+.person>img {
     width: auto;
     position: absolute;
     top: -10px;
 }
-.left-arrow{
+
+.left-arrow {
     left: -100px;
 }
-.right-arrow{
+
+.right-arrow {
     right: -100px;
 }
 
-.testimonial{
+.testimonial {
     position: relative;
-    
+
 }
-.testimonial>img{
+
+.testimonial>img {
     width: 50px;
     position: absolute;
     top: -30px;
     left: -20px;
 }
 
-.faq-section{
+.faq-section {
     width: 80%;
     margin: 100px auto;
 }
-.faq-section>.header{
+
+.faq-section>.header {
     width: 70%;
     margin: auto;
     text-align: center;
 }
 
-.q_a-container{
+.q_a-container {
     background-color: rgba(245, 247, 250, 1);
     margin: 10px;
     padding: 20px;
 }
 
-.q_a-container>.question{
+.q_a-container>.question {
     display: flex;
     justify-content: space-between;
 }
-.q_a-container>.answer{
+
+.q_a-container>.answer {
     text-align: justify;
 }
 
-.app-download-section{
+.app-download-section {
     width: 80%;
     margin: 20px auto;
 
 }
-.app-container{
+
+.app-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.app-container>*{
+.app-container>* {
     width: 45%;
 
 }
+
+.footer-section {
+    background: #555DDB;
+    padding: 100px 0px 0px 0px;
+}
+
+.footer-section>.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.footer-section>.top>* {
+    text-align: center;
+}
+
+.footer-section .logo-div>h4 {
+    font-size: 13px;
+}
+
+.footer-section .logo-div>p {
+    font-size: 8px;
+}
+
+.footer-section a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-section>.bottom {
+    text-align: center;
+    border-top: solid 1px #ACACAC;
+    padding: 50px 0px 20px 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+

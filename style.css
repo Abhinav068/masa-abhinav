@@ -819,3 +819,19 @@ body {
     font-weight: 400;
 }
 
+.contact-section {
+    width: 80%;
+    margin: 20px auto;
+    border: solid gray 2px;
+    background: linear-gradient(295deg, #54CFEE 2.3%, #00B5B4 29.86%, #605DC6 101.35%);
+    display: flex;
+    border-radius: 14.322px;
+}
+
+form {
+    border-radius: 14.322px;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 2.38694px 2.38694px 11.9347px 0px rgba(0, 0, 0, 0.05);
+}
+
+form>div {}

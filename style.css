@@ -780,7 +780,9 @@ body {
 
 .footer-section {
     background: #555DDB;
-    padding: 100px 0px 0px 0px;
+    padding: 300px 0px 0px 0px;
+    margin-top: 500px;
+    position: relative;
 }
 
 .footer-section>.top {
@@ -820,18 +822,74 @@ body {
 }
 
 .contact-section {
+    position: absolute;
+    top: -60%;
+    left: 5%;
     width: 80%;
     margin: 20px auto;
+    padding: 30px 60px;
     border: solid gray 2px;
     background: linear-gradient(295deg, #54CFEE 2.3%, #00B5B4 29.86%, #605DC6 101.35%);
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 14.322px;
 }
 
+.contact-section h1{
+    color: #FFF;
+    padding: 20px;
+}
+.contact-section img{
+    width: 30%;
+}
 form {
     border-radius: 14.322px;
     background: rgba(255, 255, 255, 0.20);
     box-shadow: 2.38694px 2.38694px 11.9347px 0px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+}
+form>*{
+    margin: 20px 0;
+    display: block;
+}
+form input {
+    border-radius: 8.951px;
+    border: 0.895px solid #E8ECEF;
+    background: #FFF;
+    padding: 10px 15px;
+    outline: none;
 }
 
-form>div {}
+.person-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+form>textarea {
+    border-radius: 8.951px;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+form>textarea::placeholder{
+    text-align: center;
+    line-height: 100px
+    
+}
+
+form>input[type=submit] {
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: #555DDB;
+    color: white;
+    border: none;
+}
+form input:focus,textarea:focus{
+    border: 2px solid rgb(0, 60, 255);
+}
